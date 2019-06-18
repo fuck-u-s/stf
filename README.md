@@ -1,12 +1,12 @@
 # stf
 stf的自定义；添加用户管理，添加用户设备分配及限制；
 
-lib/units/auth/mock.js 登陆验证
-lib/units/websocket/index.js 用户设备限制
-lib/units/api/controllers/devices.js 用户设备限制
-lib/units/device/plugins/screen/stream.js 设备传输流大小控制
+lib/units/auth/mock.js 登陆验证<br>
+lib/units/websocket/index.js 用户设备限制<br>
+lib/units/api/controllers/devices.js 用户设备限制<br>
+lib/units/device/plugins/screen/stream.js 设备传输流大小控制<br>
 
-####https://npm.taobao.org/mirrors/node/v8.16.0/
+####https://npm.taobao.org/mirrors/node/v8.16.0/<br>
 
 CREATE TABLE `t_stf_user` (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主健;',
